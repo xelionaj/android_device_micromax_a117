@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product-if-exists, vendor/micromax/a116/a116-vendor.mk)
+$(call inherit-product-if-exists, vendor/micromax/a117/a117-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay/
 
@@ -77,7 +77,7 @@ PRODUCT_PROPERTY_OVERRIDES := \
 	persist.radio.fd.off.counter=5 \
 	persist.radio.fd.off.r8.counter=5 \
 	persist.radio.fd.r8.counter=15 \
-        persist.radio.multisim.config=dsds \
+    persist.radio.multisim.config=dsds \
 	persist.sys.usb.config=adb \
 	ril.current.share_modem=2 \
 	ril.external.md=0 \
