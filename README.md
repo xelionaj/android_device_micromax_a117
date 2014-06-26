@@ -12,9 +12,10 @@ for using Xelion-Kernel for your device, please follow http://forum.xda-develope
 
 Xelion-Kernel.0.1.alpha
 ================================================================
-Kernel source code will be available soon.
 Added selinux support for 4.4 (Kitkat)
 Added NTFS support for read/write NTFS
+Kernel source code:https://github.com/xelionaj/Xelion-Kernel_micromax-a117
+
 
 Important Notice
 ================================================================
