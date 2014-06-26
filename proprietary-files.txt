@@ -67,7 +67,7 @@ lib/libdpframework_plat.so
 lib/libion.so
 
 lib/libaudiocustparam.so
-# lib/libacdk.so
+lib/libacdk.so
 lib/libimageio.so
 lib/libcamdrv.so
 lib/libbwc.so
@@ -88,18 +88,18 @@ lib/libcam.camshot.so
 lib/libcam.campipe.so
 lib/libcam.camadapter.so
 lib/libJpgEncPipe.so
-# lib/libjpeg.so
-# lib/libmmfactoryutil.so
+lib/libjpeg.so
+lib/libmmfactoryutil.so
 lib/libblisrc.so
 lib/libspeech_enh_lib.so
 lib/libaudiosetting.so
 lib/libaudiocompensationfilter.so
 lib/libbessound_mtk.so
-# lib/libmedia.so
-# lib/libvcodec_oal.so
-# lib/libvcodec_utility.so
-# lib/libsched.so
-# lib/libmp4enc_xa.ca7.so
+lib/libmedia.so
+lib/libvcodec_oal.so
+lib/libvcodec_utility.so
+lib/libsched.so
+lib/libmp4enc_xa.ca7.so
 
 bin/hald
 bin/wlan_loader
@@ -168,6 +168,10 @@ etc/firmware/S_ANDRO_SFL.ini
 etc/firmware/WIFI_RAM_CODE_MT6628
 etc/firmware/catcher_filter.bin
 etc/firmware/WMT.cfg
+<<<<<<< HEAD
+=======
+# etc/firmware/ft5206/tinno-fts-update-jiemian.bin
+>>>>>>> FETCH_HEAD
 
 etc/audio_policy.conf
 etc/audio_effects.conf

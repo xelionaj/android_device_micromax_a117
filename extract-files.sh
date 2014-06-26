@@ -3,7 +3,11 @@
 VENDOR=micromax
 DEVICE=a117
 
+<<<<<<< HEAD
 BASE=/Volumes/android_source/a117/android_device_micromax_a117/proprietary/
+=======
+BASE=../../../device/$VENDOR/$DEVICE/proprietary
+>>>>>>> FETCH_HEAD
 
 echo "Pulling $DEVICE files..."
 for FILE in `cat proprietary-files.txt | grep -v ^# | grep -v ^$`; do

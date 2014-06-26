@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
 	$(MOD_SRC)/ccci.ko:$(MOD_TGT)/ccci.ko \
 	$(MOD_SRC)/ccci_plat.ko:$(MOD_TGT)/ccci_plat.ko \
 	$(MOD_SRC)/devapc.ko:$(MOD_TGT)/devapc.ko \
+	$(MOD_SRC)/configs.ko:$(MOD_TGT)/configs.ko \
 	$(MOD_SRC)/devinfo.ko:$(MOD_TGT)/devinfo.ko \
 	$(MOD_SRC)/mtk_fm_drv.ko:$(MOD_TGT)/mtk_fm_drv.ko \
 	$(MOD_SRC)/mtk_hif_sdio.ko:$(MOD_TGT)/mtk_hif_sdio.ko \
