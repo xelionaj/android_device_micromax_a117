@@ -1,9 +1,9 @@
 #!/bin/sh
 
 VENDOR=micromax
-DEVICE=a116
+DEVICE=a117
 
-BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
+BASE=../../../device/$VENDOR/$DEVICE/proprietary
 
 echo "Pulling $DEVICE files..."
 for FILE in `cat proprietary-files.txt | grep -v ^# | grep -v ^$`; do
