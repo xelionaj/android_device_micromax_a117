@@ -26,7 +26,7 @@ $(call inherit-product, vendor/carbon/config/common.mk)
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-PRODUCT_NAME := carbon_a116
+PRODUCT_NAME := carbon_a117
 PRODUCT_DEVICE := a117
 PRODUCT_MODEL := Canvas Magnus
 PRODUCT_RELEASE_NAME := a117
