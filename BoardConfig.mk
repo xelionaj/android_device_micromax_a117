@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_FOLDER := device/micromax/a116
+DEVICE_FOLDER := device/micromax/a117
 
--include vendor/micromax/a116/BoardConfigVendor.mk
+-include device/micromax/a117/BoardConfigVendor.mk
 
 # board
 TARGET_BOARD_PLATFORM := mt6589
@@ -72,4 +72,4 @@ WIFI_DRIVER_FW_PATH_STA := "STA"
 WIFI_DRIVER_FW_PATH_P2P := "STA+P2P"
 
 # telephony
-BOARD_RIL_CLASS := ../../../device/micromax/a117/ril/
+BOARD_RIL_CLASS := $(DEVICE_FOLDER)/ril/
