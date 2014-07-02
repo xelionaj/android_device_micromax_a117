@@ -41,15 +41,39 @@ PRODUCT_COPY_FILES += \
 	$(MOD_SRC)/wlan_mt6628.ko:$(MOD_TGT)/wlan_mt6628.ko
 
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/root/fstab.mt6589:root/fstab.mt6589
+	$(LOCAL_PATH)/root/fstab:root/fstab
 
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/root/ueventd.mt6589.rc:root/ueventd.mt6589.rc \
-	$(LOCAL_PATH)/root/init.mt6589.rc:root/init.mt6589.rc \
+	$(LOCAL_PATH)/root/ueventd.rc:root/ueventd.rc \
+	$(LOCAL_PATH)/root/init.rc:root/init.rc \
 	$(LOCAL_PATH)/root/init.modem.rc:root/init.modem.rc \
 	$(LOCAL_PATH)/root/init.protect.rc:root/init.protect.rc \
-	$(LOCAL_PATH)/root/init.mt6589.usb.rc:/root/init.mt6589.usb.rc
-
+	$(LOCAL_PATH)/root/init.usb.rc:/root/init.usb.rc
+	$(LOCAL_PATH)/root/advanced_meta_init.rc:/root/advanced_meta_init.rc
+	$(LOCAL_PATH)/root/custom_build_verno:/root/custom_build_verno
+	$(LOCAL_PATH)/root/default.prop:/root/default.prop
+	$(LOCAL_PATH)/root/factory_init.project.rc:/root/factory_init.project.rc
+	$(LOCAL_PATH)/root/factory_init.rc:/root/factory_init.rc
+	$(LOCAL_PATH)/root/init:/root/init
+	$(LOCAL_PATH)/root/init.aee.customer.rc:/root/init.aee.customer.rc
+	$(LOCAL_PATH)/root/init.charging.rc:/root/init.charging.rc
+	$(LOCAL_PATH)/root/init.goldfish.rc:/root/init.goldfish.rc
+	$(LOCAL_PATH)/root/init.no_ssd.rc:/root/init.no_ssd.rc
+	$(LOCAL_PATH)/root/init.project.rc:/root/init.project.rc
+	$(LOCAL_PATH)/root/init.trace.rc:/root/init.trace.rc
+	$(LOCAL_PATH)/root/init.xlog.rc:/root/init.xlog.rc
+	$(LOCAL_PATH)/root/ueventd.goldfish.rc:/root/ueventd.goldfish.rc
+	$(LOCAL_PATH)/root/meta_init.rc:/root/meta_init.rc
+	$(LOCAL_PATH)/root/meta_init.project.rc:/root/meta_init.project.rc
+	$(LOCAL_PATH)/root/meta_init.modem.rc:/root/meta_init.modem.rc
+	$(LOCAL_PATH)/root/sbin/e2fsck:/root/sbin/e2fsck
+	$(LOCAL_PATH)/root/sbin/adbd:/root/sbin/adbd
+	$(LOCAL_PATH)/root/sbin/meta_tst:/root/sbin/meta_tst
+	$(LOCAL_PATH)/root/sbin/tune2fs:/root/sbin/tune2fs
+	$(LOCAL_PATH)/root/sbin/ueventd:/root/sbin/ueventd
+	$(LOCAL_PATH)/root/sbin/watchdogd:/root/sbin/watchdogd
+	
+	
 # frameworks/native/data/etc/android.hardware.wifi.direct.xml:system/etc/permissions/android.hardware.wifi.direct.xml
 
 PRODUCT_COPY_FILES += \
