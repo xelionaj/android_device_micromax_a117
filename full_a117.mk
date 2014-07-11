@@ -21,7 +21,11 @@ PRODUCT_AAPT_CONFIG := normal mdpi hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := full_a117
+PRODUCT_NAME := xelion_a117
 PRODUCT_DEVICE := a117
 PRODUCT_BRAND := micromax
 PRODUCT_MODEL := Canvas Magnus
+PRODUCT_MANUFACTURER := Micromax-Mediatek
+PRODUCT_BRAND := Xelion
+
+
